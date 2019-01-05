@@ -4,17 +4,18 @@ const friends = [{id: 11, name:"erman"},{id: 12, name:"bekir"}];
 const getUser = () => {
     return new Promise((resolve,reject) => {setTimeout(()=>{
         resolve(user)
-    }, 500);
+    }, 2000);
     });
 };
 
 const getFriends = (userId) =>{
     return new Promise((resolve,reject) => {setTimeout(()=>{
         resolve(friends)
-    }, 500);
+    }, 1500);
     });
 };
 // promise chain
+/*
 getUser()
     .then((user) =>{
         return getFriends(user.id);
@@ -22,3 +23,18 @@ getUser()
     .then((friends)=>{
        console.log(friends);
     })
+*/
+
+async function asyncakıs() {
+    console.log("islem basladi");
+    const user = await getUser();
+    console.log("user işlemi bitti");
+
+    console.log("friends işlemi başladı");
+    const friends = await getFriends(user.id);
+    console.log("friends işlemi bitti");
+
+    console.log('veriler: ', {user,friends});
+};
+
+asyncakıs();
