@@ -25,16 +25,21 @@ getUser()
     })
 */
 
-async function asyncakıs() {
-    console.log("islem basladi");
-    const user = await getUser();
-    console.log("user işlemi bitti");
+async function asyncFlow() {
+    try {
+        console.log("islem basladi");
+        const user = await getUser();
+        console.log("user işlemi bitti");
 
-    console.log("friends işlemi başladı");
-    const friends = await getFriends(user.id);
-    console.log("friends işlemi bitti");
+        console.log("friends işlemi başladı");
+        const friends = await getFriends(user.id);
+        console.log("friends işlemi bitti");
 
-    console.log('veriler: ', {user,friends});
+        console.log('veriler: ', {user, friends});
+    }
+    catch (e) {
+        console.log(e);
+    }
 };
 
-asyncakıs();
+asyncFlow();
