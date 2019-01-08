@@ -12,7 +12,7 @@ html
         br
         =deneme2
         br
-        hr 
+        hr
         -var sayi = 12
 
         if !sayi
@@ -29,3 +29,7 @@ html
             =surname
         br
         include footer
+
+        ul
+            each val in [1, 2, 3, 4, 5]
+                li= val     
