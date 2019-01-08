@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b12ac93-44da-4257-9f16-9243892625aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Express/expressFirst.js" beforeDir="false" afterPath="$PROJECT_DIR$/Express/expressFirst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Express/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Express/views/index.pug" afterDir="false" />
-    </list>
+    <list default="true" id="6b12ac93-44da-4257-9f16-9243892625aa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -163,12 +160,12 @@
       <workItem from="1546797929184" duration="4227000" />
       <workItem from="1546804714303" duration="2099000" />
       <workItem from="1546845882834" duration="1168000" />
-      <workItem from="1546930168492" duration="6508000" />
+      <workItem from="1546930168492" duration="6619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36367000" />
+    <option name="totallyTimeSpent" value="36478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
