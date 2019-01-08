@@ -2,6 +2,18 @@ html
     head
         title merhaba pug
     body
+        //açıklama
+        div(id='başlık') başlık div i
+
+        - var deneme = 'deneme'
+        - var deneme2 = 'deneme2'
+
+        =deneme.toUpperCase()
+        br
+        =deneme2
+
+        hr
+
         span(style="color: red; background-color: black ")
             | merhaba #{ name }
             =surname
