@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b12ac93-44da-4257-9f16-9243892625aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node-http/readstream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-http/readstream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/readstream.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node-http/readstream.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -162,12 +162,12 @@
       <workItem from="1546797929184" duration="4227000" />
       <workItem from="1546804714303" duration="2099000" />
       <workItem from="1546845882834" duration="1168000" />
-      <workItem from="1546930168492" duration="4119000" />
+      <workItem from="1546930168492" duration="4302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33978000" />
+    <option name="totallyTimeSpent" value="34161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,6 +180,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="16" width="1400" height="882" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -466,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node-http/readstream.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="306">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
